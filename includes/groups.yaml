@@ -1,0 +1,7 @@
+  kitchen:
+    view: yes
+    icon: mdi:home
+    name: Kitchen 
+    entities:
+      - sensor.kitchen_temperature
+      - sensor.kitchen_motion

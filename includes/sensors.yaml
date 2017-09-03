@@ -1,0 +1,28 @@
+# meteo
+- platform: yr
+  monitored_conditions:
+    - temperature
+    - symbol
+    - windSpeed
+    - pressure
+    - windDirection
+    - humidity
+    - cloudiness
+
+- platform: mqtt
+  state_topic: devices/190db9e0/temperature/degrees
+  name: "Kitchen temperature"
+  qos: 0
+  unit_of_measurement: "°C"
+
+- platform: mqtt
+  state_topic: devices/190db9e0/motion/motion
+  name: "Kitchen motion"
+  qos: 0
+
+- platform: mqtt
+  state_topic: devices/a020a623f91c/temperature/degrees
+  name: "Bedroom temperature"
+  qos: 0
+  unit_of_measurement: "°C"
+  

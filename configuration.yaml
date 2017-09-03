@@ -11,7 +11,11 @@ homeassistant:
   # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Moscow
 
-
+device_tracker:
+  - platform: netgear
+    host: !secret router-host
+    username: !secret router-user
+    password: !secret router-password
 
 # Show links to resources in log and frontend
 introduction:
@@ -62,6 +66,9 @@ sensor:
 tts:
   - platform: google
 
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
+sensor:
+  !include includes/sensors.yaml  
+
+group: !include includes/groups.yaml
+automation: !include includes/automations.yaml
+script: !include includes/scripts.yaml
