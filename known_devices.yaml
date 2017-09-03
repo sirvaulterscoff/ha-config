@@ -1,0 +1,126 @@
+
+hivemini:
+  hide_if_away: true
+  icon:
+  mac: 20:C9:D0:95:B3:7B
+  name: hivemini
+  picture:
+  track: false
+  vendor: unknown
+
+ipadiriska:
+  hide_if_away: false
+  icon:
+  mac: 98:B8:E3:4A:C3:33
+  name: iPad-IRISKA
+  picture:
+  track: true
+  vendor: unknown
+
+appletv2:
+  hide_if_away: false
+  icon:
+  mac: 5C:F9:38:CE:F1:BA
+  name: Apple-TV-2
+  picture:
+  track: false
+  vendor: unknown
+
+hivepad:
+  hide_if_away: false
+  icon:
+  mac: 1C:AB:A7:2F:04:4D
+  name: hIvePAD
+  picture:
+  track: false
+  vendor: unknown
+
+190db9e0:
+  hide_if_away: false
+  icon:
+  mac: A0:20:A6:19:0D:B9
+  name: 190db9e0
+  picture:
+  track: false
+  vendor: unknown
+
+iriska:
+  hide_if_away: false
+  icon:
+  mac: F0:C1:F1:8E:7B:D2
+  name: Iriska
+  picture:
+  track: true
+  vendor: unknown
+
+iphonealexey:
+  hide_if_away: false
+  icon:
+  mac: 40:33:1A:89:F7:61
+  name: iPhone-Alexey
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+tvd97710d5784f:
+  hide_if_away: false
+  icon:
+  mac: D8:D4:3C:E5:9F:78
+  name: tvd97710d5784f
+  picture:
+  track: false
+  vendor: unknown
+
+6001941cda7b:
+  hide_if_away: false
+  icon:
+  mac: 60:01:94:1C:DA:7B
+  name: 6001941cda7b
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+newdevice:
+  hide_if_away: false
+  icon:
+  mac: 5C:CF:7F:E4:58:E5
+  name: newdevice
+  picture:
+  track: true
+  vendor: Espressif Inc.
+
+a020a623f91c:
+  hide_if_away: false
+  icon:
+  mac: A0:20:A6:23:F9:1C
+  name: a020a623f91c
+  picture:
+  track: true
+  vendor: Espressif Inc.
+
+iphone_alexey:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iphone alexey
+  picture:
+  track: true
+  vendor:
+
+prezpc:
+  hide_if_away: false
+  icon:
+  mac: 30:10:B3:ED:CC:C7
+  name: prez-pc
+  picture:
+  track: true
+  vendor: Liteon Technology Corporation
+
+6001941cd988:
+  hide_if_away: false
+  icon:
+  mac: 60:01:94:1C:D9:88
+  name: 6001941cd988
+  picture:
+  track: true
+  vendor: unknown
