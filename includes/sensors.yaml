@@ -10,14 +10,19 @@
     - cloudiness
 
 - platform: mqtt
-  state_topic: devices/190db9e0/temperature/degrees
+  state_topic: devices/kitchen-multisensor-1/temperature/degrees
   name: "Kitchen temperature"
   qos: 0
   unit_of_measurement: "°C"
 
 - platform: mqtt
-  state_topic: devices/190db9e0/motion/motion
+  state_topic: devices/kitchen-multisensor-1/motion/motion
   name: "Kitchen motion"
+  qos: 0
+
+- platform: mqtt
+  state_topic: devices/kitchen-multisensor-1/light
+  name: "Kitchen light"
   qos: 0
 
 - platform: mqtt

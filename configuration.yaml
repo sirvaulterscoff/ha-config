@@ -68,6 +68,14 @@ sensor:
 tts:
   - platform: google
 
+
+mqtt:
+   broker: localhost
+   port: 1883
+   mqtt:
+   username: !secret  mqtt-user
+   password: !secret  mqtt-password
+
 sensor:
   !include includes/sensors.yaml  
 
