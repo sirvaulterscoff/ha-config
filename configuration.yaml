@@ -72,7 +72,6 @@ tts:
 mqtt:
    broker: core-mosquitto
    port: 1883
-   mqtt:
    username: !secret  mqtt-user
    password: !secret  mqtt-password
 
