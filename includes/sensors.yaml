@@ -21,7 +21,7 @@
   qos: 0
 
 - platform: mqtt
-  state_topic: devices/kitchen-multisensor-1/light
+  state_topic: devices/kitchen-multisensor-1/light/light-amount
   name: "Kitchen light"
   qos: 0
 
