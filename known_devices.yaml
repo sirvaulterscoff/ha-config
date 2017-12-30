@@ -124,3 +124,21 @@ prezpc:
   picture:
   track: true
   vendor: unknown
+
+iriska_2:
+  hide_if_away: false
+  icon:
+  mac: A8:5C:2C:C4:BF:97
+  name: Iriska
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+hassio:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:C9:24:86
+  name: hassio
+  picture:
+  track: true
+  vendor: unknown
