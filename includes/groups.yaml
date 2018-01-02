@@ -5,3 +5,10 @@
     entities:
       - sensor.kitchen_temperature
       - sensor.kitchen_motion
+
+  bedroom:
+    view: yes
+    icon: mdi:bedroom
+    name: Bedroom 
+    entities:
+      - sensor.bedroom_temperature
