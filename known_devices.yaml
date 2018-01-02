@@ -79,3 +79,21 @@ kitchenmultisensor1:
   picture:
   track: true
   vendor: Espressif Inc.
+
+iphone_alexey:
+  hide_if_away: false
+  icon:
+  mac:
+  name: iphone alexey
+  picture:
+  track: true
+  vendor:
+
+tvd97710d5784f:
+  hide_if_away: false
+  icon:
+  mac: D8:D4:3C:E5:9F:78
+  name: tvd97710d5784f
+  picture:
+  track: true
+  vendor: unknown
