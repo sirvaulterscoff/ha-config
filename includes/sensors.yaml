@@ -21,6 +21,7 @@
   state_topic: devices/kitchen-multisensor-1/light/light-amount
   name: "Kitchen light"
   qos: 0
+  unit_of_measurement: "%"
 
 - platform: mqtt
   state_topic: devices/room-weatherstation-1/temperature/degrees
