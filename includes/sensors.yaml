@@ -27,4 +27,9 @@
   name: "Bedroom temperature"
   qos: 0
   unit_of_measurement: "°C"
-  
+
+- platform: mqtt
+  state_topic: devices/room-weatherstation-1/humidity/humidity
+  name: "Bedroom humidity"
+  qos: 0
+  unit_of_measurement: "%"
